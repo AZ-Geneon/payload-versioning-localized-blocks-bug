@@ -19,6 +19,10 @@ export default buildConfigWithDefaults({
       baseDir: path.resolve(dirname),
     },
   },
+  localization: {
+    locales: ['en', 'es', 'de'],
+    defaultLocale: 'en',
+  },
   editor: lexicalEditor({}),
   globals: [
     // ...add more globals here
